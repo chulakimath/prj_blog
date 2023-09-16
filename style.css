@@ -48,18 +48,20 @@ body {
     justify-content: center;
     position: relative;
 }
-.three_blog_left{
+
+.three_blog_left {
     position: absolute;
     top: 10%;
     left: -10%;
 }
-.four_blog_right_Scribble{
+
+.four_blog_right_Scribble {
     position: absolute;
     top: 70%;
     right: -2%;
 }
 
-.three_images{
+.three_images {
     margin-top: 15vh;
     margin-left: 10%;
     margin-right: 10%;
@@ -68,32 +70,39 @@ body {
     justify-content: space-around;
     position: relative;
 }
-.allImages{
+
+.allImages {
     width: 25%;
 }
-.image3>img{
-filter: brightness(90%);
-width: 90%;
+
+.image3>img {
+    filter: brightness(90%);
+    width: 90%;
 }
-.allImages>#line{
+
+.allImages>#line {
     margin-top: 5vh;
     background-color: black;
     width: 10%;
     height: 2px;
 }
-.gallary_left{
-position: absolute;
-left: -20%;
-top: -20%;
-transform: scale(0.8);
+
+.gallary_left {
+    position: absolute;
+    left: -20%;
+    top: -20%;
+    transform: scale(0.8);
 }
-.gallary_right{
+
+.gallary_right {
     position: absolute;
     right: -16%;
     top: 20%;
 }
-.plain{
+
+.plain {
     margin-top: 30vh;
+    margin-bottom: 30vh;
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -101,14 +110,76 @@ transform: scale(0.8);
     justify-content: center;
     position: relative;
 }
-.plain_text{
+
+.plain_text {
     width: 25%;
 }
-.plain_text_cap{
+
+.plain_text_cap {
     display: flex;
 }
-.plain_Scribble{
+
+.plain_Scribble {
     position: absolute;
     left: 18%;
     transform: scale(0.5);
+}
+
+.twoImgs {
+    padding: 0 2%;
+    filter: brightness(70%);
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    position: relative;
+}
+
+.long_img {
+    width: 40%;
+}
+
+.small_image {
+    width: 50%;
+}
+
+.mountain_text {
+    margin-top: 5%;
+    display: flex;
+}
+
+.long_img>img {
+    height: 90%;
+}
+
+.Tape {
+    position: absolute;
+    left: 3%;
+    top: 30%;
+}
+
+.line {
+    position: absolute;
+    right: 5%;
+    bottom: 13%;
+}
+
+
+.bloc_six {
+    clear: both;
+    height: 100%;
+    background-color: black;
+    height: fit-content;
+    color: white;
+    width: 100%;
+}
+
+.six_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six_main_left {
+    /* width: 35%; */
+    padding: 10% 5% 10% 10%;
 }
