@@ -1,0 +1,114 @@
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.ti {
+    margin: 0 15%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    padding: 0 1%;
+}
+
+.limage_img {
+    height: 50vh;
+    backdrop-filter: contrast(50%);
+    backdrop-filter: brightness(50%);
+}
+
+.limage_float {
+    position: absolute;
+    bottom: -45%;
+    left: -20%;
+    z-index: -1;
+}
+
+.one_float_left {
+    position: absolute;
+    right: -5%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+.box {
+    overflow-x: hidden;
+}
+
+.my_travel {
+    margin-top: 8%;
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.three_blog_left{
+    position: absolute;
+    top: 10%;
+    left: -10%;
+}
+.four_blog_right_Scribble{
+    position: absolute;
+    top: 70%;
+    right: -2%;
+}
+
+.three_images{
+    margin-top: 15vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.allImages{
+    width: 25%;
+}
+.image3>img{
+filter: brightness(90%);
+width: 90%;
+}
+.allImages>#line{
+    margin-top: 5vh;
+    background-color: black;
+    width: 10%;
+    height: 2px;
+}
+.gallary_left{
+position: absolute;
+left: -20%;
+top: -20%;
+transform: scale(0.8);
+}
+.gallary_right{
+    position: absolute;
+    right: -16%;
+    top: 20%;
+}
+.plain{
+    margin-top: 30vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.plain_text{
+    width: 25%;
+}
+.plain_text_cap{
+    display: flex;
+}
+.plain_Scribble{
+    position: absolute;
+    left: 18%;
+    transform: scale(0.5);
+}
