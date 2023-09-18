@@ -244,7 +244,7 @@ body {
 
 .card_one {
     position: relative;
-    padding: 2%;
+    padding: 4% 2%;
     margin: 0 1%;
     width: 25%;
     border: 2px solid black;
@@ -257,13 +257,114 @@ body {
 
 .Ellipse {
     position: absolute;
-    top: 7%;
+    top: 6%;
     left: 30%;
     z-index: -1;
-    overflow: hidden;
-    transform: translate(-7% -30%);
+    /* overflow: hidden; */
+    transform: translate(-50% -50%);
 }
 
 .person {
     mix-blend-mode: color-dodge;
+}
+
+.Eight_top_Scribble_dark {
+    position: absolute;
+    left: -5%;
+    top: -8%;
+}
+
+.Eight_bottom_Scribble_dark {
+    position: absolute;
+    right: -15%;
+    bottom: -15%;
+}
+
+.nine_main {
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.nine_form_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frm {
+    margin-top: 5vh;
+
+}
+form>div{
+padding: 2%;
+}
+form>div>input[type="text"]{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 95%;
+    height: 7vh;
+}
+form>div>textarea{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 95%;
+}
+form>div>::placeholder{
+    padding-left: 1vw;
+    color: black;
+}
+.form_submit{
+    width: 95%;
+    border-radius: 2px;
+}
+.nine_img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.nine_img>img{
+    width: 80%;
+    /* height: 50%; */
+}
+.foot{
+    padding: 5% 0;
+    margin-top: 20vh;
+    background-color: #C5C5C5;
+    width: 100%;
+    display: flex;
+}
+
+.allLinks>ul>li{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 5% 5% 0% 5%;
+}
+.allLinks>ul>li>a{
+    text-decoration: none;
+    color: black;
+
+}
+.foot_left{
+    position: relative;
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.foot_left>div{
+    width: 50%;
+}
+.foot_right{
+width: 60%;
+display: flex;
+flex-direction: column;
+}
+.ScribbleFoot{
+    position: absolute;
+    bottom: -10%;
+    right: 25%;
 }
